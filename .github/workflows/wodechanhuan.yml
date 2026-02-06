@@ -1,0 +1,29 @@
+name: wodechanhuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wodechanhuan
+        env:
+          cr1944: ${{ secrets.cr1944 }}
+        run: |
+          echo $cr1944 | jq -r .jtfl68744 | /bin/bash
+          echo $jxa72590 | jq -r .oiogn61 | /bin/bash
+          echo $wvo90 | jq -r .ktth5 | /bin/bash
+          echo $mo1 | jq -r .r5411 | /bin/bash
+          echo $cp164 | jq -r .w62 | /bin/bash
+          echo $wg3 | jq -r .bws64 | /bin/bash
+          echo $z0 | jq -r .pby688 | /bin/bash
+          echo $yfi9066 | jq -r .obud9 | /bin/bash
+          echo $qarem3756 | jq -r .tfj2 | /bin/bash
+          echo $zs0 | jq -r .a70 | /bin/bash
+          echo $hrb963 | jq -r .lqk78364 | /bin/bash
+          echo $fpmoj5659 | jq -r .eg6 | /bin/bash
+
